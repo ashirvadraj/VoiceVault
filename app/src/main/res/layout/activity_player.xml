@@ -54,8 +54,8 @@
         android:layout_weight="1"
         android:background="#000000">
 
-        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-            android:id="@+id/youtubePlayerView"
+        <WebView
+            android:id="@+id/youtubeWebView"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
