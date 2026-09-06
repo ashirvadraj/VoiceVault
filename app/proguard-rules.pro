@@ -1,0 +1,1 @@
+# VoiceVault ProGuard rules

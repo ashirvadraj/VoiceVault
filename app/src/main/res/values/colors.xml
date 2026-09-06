@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#1A237E</color>
+    <color name="primary_dark">#0D1642</color>
+    <color name="primary_light">#3949AB</color>
+    <color name="accent">#FF6F00</color>
+    <color name="accent_light">#FFA040</color>
+    <color name="background_light">#F5F5F5</color>
+    <color name="background_dark">#121212</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="surface_dark">#1E1E1E</color>
+    <color name="text_primary_light">#212121</color>
+    <color name="text_primary_dark">#EEEEEE</color>
+    <color name="text_secondary_light">#757575</color>
+    <color name="text_secondary_dark">#BDBDBD</color>
+    <color name="card_bg_light">#FFFFFF</color>
+    <color name="card_bg_dark">#2C2C2C</color>
+    <color name="player_bg">#0D1642</color>
+    <color name="divider_light">#E0E0E0</color>
+    <color name="divider_dark">#424242</color>
+    <color name="india_saffron">#FF9933</color>
+    <color name="india_green">#138808</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

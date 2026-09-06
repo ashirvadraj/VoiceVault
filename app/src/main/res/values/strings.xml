@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VoiceVault</string>
+    <string name="tab_speeches">Speeches</string>
+    <string name="tab_favorites">Favorites</string>
+    <string name="search_hint">Search speeches or speakers…</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="no_internet">Internet connection required to stream speeches</string>
+    <string name="loading">Loading speech…</string>
+    <string name="speeches_count">%d speeches</string>
+    <string name="about_app">VoiceVault — Listen to History\'s Greatest Speeches</string>
+</resources>
