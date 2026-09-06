@@ -4,6 +4,12 @@
 [![API](https://img.shields.io/badge/API-24%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=24)
 [![Material Design 3](https://img.shields.io/badge/Design-Material%203-blue.svg)](https://m3.material.io)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Download APK](https://img.shields.io/badge/Download-APK%20(v1.0.0)-success?style=for-the-badge&logo=android)](https://github.com/ashirvadraj/VoiceVault/releases/download/v1.0.0/VoiceVault.apk)
+[![Release](https://img.shields.io/github/v/release/ashirvadraj/VoiceVault?style=for-the-badge)](https://github.com/ashirvadraj/VoiceVault/releases/latest)
+
+> 📱 **Direct APK Download:** You can download and install the app directly on your phone:  
+> **👉 [Download VoiceVault.apk (v1.0.0)](https://github.com/ashirvadraj/VoiceVault/releases/download/v1.0.0/VoiceVault.apk)** (5.74 MB)  
+> Or browse all releases at **[GitHub Releases](https://github.com/ashirvadraj/VoiceVault/releases)**.
 
 **VoiceVault** is an Android application designed to let users explore, search, and listen to iconic historical speeches delivered by world leaders, freedom fighters, and visionary figures.
 
