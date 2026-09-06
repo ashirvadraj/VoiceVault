@@ -15,166 +15,168 @@ public class SpeechDatabase {
         speakers = new ArrayList<>();
 
         // =========================================================================
-        // 1. ATAL BIHARI VAJPAYEE (100% Verified Official & Archival Speeches)
+        // 1. ATAL BIHARI VAJPAYEE (Official & Full Archival Speeches)
         // =========================================================================
         Speaker vajpayee = new Speaker("Atal Bihari Vajpayee", "🇮🇳 India", "AV", Color.parseColor("#E65100"));
-        vajpayee.addSpeech(new Speech("1996 No-Confidence Motion — \"Sarkarein aayengi, jayengi\"", "1996", "tRlV7wysa2Q", "Atal Bihari Vajpayee", "His most famous parliamentary speech: 'Sarkarein aayengi, jayengi, partiyan banengi, bigadengi, magar yeh desh rehna chahiye'"));
-        vajpayee.addSpeech(new Speech("First Ever UNGA Speech in Hindi (Sansad TV)", "1977", "Ze624YoGB2w", "Atal Bihari Vajpayee", "Landmark speech delivered in Hindi at the United Nations General Assembly (Sansad TV)"));
-        vajpayee.addSpeech(new Speech("1977 UNGA Address in Hindi (Prasar Bharati Archives)", "1977", "LhYzG2APVqk", "Atal Bihari Vajpayee", "Archival recording from Prasar Bharati of his historic 1977 UN address"));
-        vajpayee.addSpeech(new Speech("1977 Victory Rally Speech (Janta Party Rally)", "1977", "nsJ_dRRvsBI", "Atal Bihari Vajpayee", "Historic victory rally speech after the emergency (Prasar Bharati Archives)"));
-        vajpayee.addSpeech(new Speech("Samagrah Atal Ji: Stand Against Corruption", "1998", "WoiUaYRtins", "Atal Bihari Vajpayee", "Tribute to Atal Bihari Vajpayee's uncompromising stand against corruption"));
-        vajpayee.addSpeech(new Speech("Historic 1999 Address to Opposition in Parliament", "1999", "x8_1r6lyii8", "Atal Bihari Vajpayee", "Passionate parliamentary reply to the opposition on governance and national defense"));
-        vajpayee.addSpeech(new Speech("Jab 13 Din Ki Sarkar — Historic 1996 Resignation", "1996", "icBJsEb_XjY", "Atal Bihari Vajpayee", "Historic address stepping down after 13 days in the Lok Sabha with dignity"));
-        vajpayee.addSpeech(new Speech("Rare Archival Video & Public Address", "Various", "jB2zTNyOmuw", "Atal Bihari Vajpayee", "Rare archival footage of Vajpayee's powerful oratorical delivery"));
+        vajpayee.addSpeech(new Speech("Best Speeches of Atal Bihari Vajpayee (Sansad TV)", "Various", "ogow0QHQ3R4", "Atal Bihari Vajpayee", "Sansad TV official documentary & landmark parliamentary addresses (28 mins)"));
+        vajpayee.addSpeech(new Speech("1996 Historic Speech: 13 Din Ki Sarkar (Parliament Live)", "1996", "zFoiNU_p3bQ", "Atal Bihari Vajpayee", "Full 25-minute resignation speech: 'Sarkarein aayengi, jayengi, desh rehna chahiye'"));
+        vajpayee.addSpeech(new Speech("Samagrah Atal Ji: Stand Against Corruption", "1998", "WoiUaYRtins", "Atal Bihari Vajpayee", "Complete 74-minute address on probity in public life and clean governance"));
+        vajpayee.addSpeech(new Speech("1977 Victory Rally Speech (Prasar Bharati Archives)", "1977", "nsJ_dRRvsBI", "Atal Bihari Vajpayee", "Historic 16-minute victory rally after the lifting of Emergency"));
+        vajpayee.addSpeech(new Speech("Atal Yatra: Life and Visionary Contributions (Sansad TV)", "Various", "9FsclLVUrso", "Atal Bihari Vajpayee", "Official Sansad TV special chronicling his iconic parliamentary career (16 mins)"));
+        vajpayee.addSpeech(new Speech("2000 Prime Minister Address on Good Health & Society", "2000", "lDgpGaoPEmw", "Atal Bihari Vajpayee", "Archival recording from Prasar Bharati of his address to national medical leaders (16 mins)"));
+        vajpayee.addSpeech(new Speech("1971 Parliamentary Speech on Indo-Pak War", "1971", "p6vyF9u542c", "Atal Bihari Vajpayee", "Historic address in Parliament backing the armed forces during the 1971 liberation war"));
+        vajpayee.addSpeech(new Speech("Parliament Speeches Marathon Collection", "Various", "TIhdMyj37eo", "Atal Bihari Vajpayee", "Comprehensive live parliament speeches of Atal Bihari Vajpayee (150 mins)"));
         speakers.add(vajpayee);
 
         // =========================================================================
-        // 2. DR. APJ ABDUL KALAM (100% Verified Speeches & Addresses)
+        // 2. DR. APJ ABDUL KALAM (Official Full Addresses & Lectures)
         // =========================================================================
         Speaker kalam = new Speaker("Dr. APJ Abdul Kalam", "🇮🇳 India", "AK", Color.parseColor("#2E7D32"));
-        kalam.addSpeech(new Speech("European Parliament Historic Address", "2007", "YjLK8EC7czs", "Dr. APJ Abdul Kalam", "His landmark address at the European Parliament proposing global energy and space partnership"));
-        kalam.addSpeech(new Speech("European Parliament Full Speech (For Equality)", "2007", "mYwU9OFPHEs", "Dr. APJ Abdul Kalam", "Complete address of Dr. Kalam at the EU Parliament, Strasbourg"));
-        kalam.addSpeech(new Speech("Culture of Excellence (English Speeches)", "2005", "LEtP7HgGTu0", "Dr. APJ Abdul Kalam", "Landmark oration with English subtitles on creating an institutional culture of excellence"));
-        kalam.addSpeech(new Speech("India's Most Powerful Motivational Speech", "Various", "S8geX6zXp5M", "Dr. APJ Abdul Kalam", "His most inspiring words to the youth on courage, ambition, and innovation"));
-        kalam.addSpeech(new Speech("How to Achieve Our Goals? — Student Interaction", "Various", "7owBdtgIUU4", "Dr. APJ Abdul Kalam", "Interactive speech teaching students the 4 essentials of achieving life goals"));
-        kalam.addSpeech(new Speech("Formula for World Peace — Speech to Youth", "Various", "3Xf-4gl5I7g", "Dr. APJ Abdul Kalam", "Inspiring student interaction on righteousness in the heart and world peace"));
-        kalam.addSpeech(new Speech("The Best Speech Ever — Motivation by APJ Kalam", "Various", "-7TwMUyWSE0", "Dr. APJ Abdul Kalam", "Iconic interview and speech on overcoming failure and persevering"));
-        kalam.addSpeech(new Speech("Teachers' Day: The Meaning of a Great Teacher", "Various", "OABHSQgpctU", "Dr. APJ Abdul Kalam", "Dr. Kalam sharing his thoughts on education, teachers, and student character"));
-        kalam.addSpeech(new Speech("What is Knowledge? Defined by Kalam", "Various", "O4BwvpVJ17k", "Dr. APJ Abdul Kalam", "Philosophical and scientific perspective on knowledge = creativity + courage"));
+        kalam.addSpeech(new Speech("European Parliament Historic Address (Official EU)", "2007", "d36YFbYwlU8", "Dr. APJ Abdul Kalam", "Complete 47-minute speech to European Parliament on global energy & world peace"));
+        kalam.addSpeech(new Speech("India Interacts with Dr. APJ Abdul Kalam (Sansad TV)", "2006", "9CKCfiX3uO0", "Dr. APJ Abdul Kalam", "Official Sansad TV 48-minute interactive session with youth, teachers, and innovators"));
+        kalam.addSpeech(new Speech("Culture of Excellence (English Speeches)", "2005", "LEtP7HgGTu0", "Dr. APJ Abdul Kalam", "Full 23-minute oration with English subtitles on institutional leadership and ethics"));
+        kalam.addSpeech(new Speech("Inspiring Address to the Youth & Nation", "Various", "i5WYp4wMXfc", "Dr. APJ Abdul Kalam", "19-minute keynote address with full subtitles on courage, dreams, and action"));
+        kalam.addSpeech(new Speech("Keynote Address at Simon Fraser University", "2008", "tBuWNEbJemo", "Dr. APJ Abdul Kalam", "Distinguished academic address on innovation and sustainable development (13 mins)"));
+        kalam.addSpeech(new Speech("Interaction with Children: Vision 2020", "Various", "TckGcxwknYU", "Dr. APJ Abdul Kalam", "15-minute inspirational interaction guiding students toward national development"));
+        kalam.addSpeech(new Speech("Leadership and Nation Building Keynote", "2005", "9fz_91hFvzY", "Dr. APJ Abdul Kalam", "22-minute masterclass on managerial integrity and purpose"));
+        kalam.addSpeech(new Speech("2003 Presidential Address to Both Houses of Parliament", "2003", "nazqtuB95SY", "Dr. APJ Abdul Kalam", "Full address to the joint session of the Indian Parliament (Digital Sansad)"));
         speakers.add(kalam);
 
         // =========================================================================
-        // 3. PANDIT JAWAHARLAL NEHRU (100% Verified Speeches & Broadcasts)
+        // 3. PANDIT JAWAHARLAL NEHRU (Official Prasar Bharati Digitized Speeches)
         // =========================================================================
         Speaker nehru = new Speaker("Jawaharlal Nehru", "🇮🇳 India", "JN", Color.parseColor("#1565C0"));
-        nehru.addSpeech(new Speech("Tryst with Destiny — Original Midnight Address", "1947", "TuhtH8j4stw", "Jawaharlal Nehru", "Delivered on midnight of August 14-15, 1947: 'Long years ago we made a tryst with destiny...'"));
-        nehru.addSpeech(new Speech("1947 Constituent Assembly Address (Prasar Bharati)", "1947", "VnxirE62Yd8", "Jawaharlal Nehru", "Official digitized audio from Prasar Bharati Archives of the independence speech"));
-        nehru.addSpeech(new Speech("Tryst with Destiny (Xplorer India Historic Video)", "1947", "lrEkYscgbqE", "Jawaharlal Nehru", "Historical footage and original audio of the independence declaration"));
-        nehru.addSpeech(new Speech("Asianet News Rewind — Tryst with Destiny", "1947", "PY33T7qiZf8", "Jawaharlal Nehru", "Archival audio broadcast of the midnight independence declaration"));
-        nehru.addSpeech(new Speech("Parliament Recounts Nehru's Tryst with Destiny", "1947", "eW7LzygcYk8", "Jawaharlal Nehru", "Parliamentary reflections on the historic words that echoed at freedom"));
+        nehru.addSpeech(new Speech("Tryst with Destiny — Constituent Assembly 1947", "1947", "VnxirE62Yd8", "Jawaharlal Nehru", "Prasar Bharati Archives digitized master audio of the midnight independence declaration (6 mins)"));
+        nehru.addSpeech(new Speech("Constituent Assembly Independence Day Address", "1947", "MjM8TR9_oOo", "Jawaharlal Nehru", "Prasar Bharati Archives recording of the morning session of August 15, 1947"));
+        nehru.addSpeech(new Speech("1951 Independence Day Red Fort Address", "1951", "otqVETbLlG8", "Jawaharlal Nehru", "Prasar Bharati Archives 43-minute historic address from the ramparts of Red Fort"));
+        nehru.addSpeech(new Speech("1948 Independence Day Address to the Nation", "1948", "20EgRoRJxfw", "Jawaharlal Nehru", "27-minute archival address on rebuilding India, communal harmony, and state building"));
+        nehru.addSpeech(new Speech("Last In-Depth TV Interview (May 1964)", "1964", "zlTfXWFQYGQ", "Jawaharlal Nehru", "45-minute profound archival broadcast reflecting on history, democracy, and peace"));
         speakers.add(nehru);
 
         // =========================================================================
-        // 4. SACHIN TENDULKAR (100% Verified Farewell & Retirement Addresses)
+        // 4. SACHIN TENDULKAR (Full Wankhede Retirement & Farewell Speeches)
         // =========================================================================
         Speaker sachin = new Speaker("Sachin Tendulkar", "🇮🇳 India", "ST", Color.parseColor("#00897B"));
-        sachin.addSpeech(new Speech("Emotional Farewell Speech at Wankhede Stadium", "2013", "9PW1E3T9o8s", "Sachin Tendulkar", "The immortal 20-minute retirement address: 'My life, between 22 yards for 24 years... Sachin, Sachin will reverberate in my ears till my last breath'"));
-        sachin.addSpeech(new Speech("Sachin Tendulkar Farewell Speech (Cricket Wicket)", "2013", "u1ckD5y2eKo", "Sachin Tendulkar", "Full farewell speech addressing his family, Achrekar Sir, teammates, and fans"));
-        sachin.addSpeech(new Speech("Farewell Speech True HD 1080P", "2013", "Np-RrpbGvGg", "Sachin Tendulkar", "High-definition master recording of the Wankhede retirement address"));
-        sachin.addSpeech(new Speech("Emotional Goodbye at Wankhede Stadium (Kaushik)", "2013", "-tsHVEZkZSU", "Sachin Tendulkar", "Poignant retirement ceremony footage from Mumbai"));
-        sachin.addSpeech(new Speech("The Final Walk — Emotional Goodbye Motivation", "2013", "p7x01_vNlD0", "Sachin Tendulkar", "Emotional walk off the field and reflections on his 24-year career"));
+        sachin.addSpeech(new Speech("Full Farewell Speech at Wankhede Stadium (2013)", "2013", "u1ckD5y2eKo", "Sachin Tendulkar", "The immortal 21-minute farewell speech thanking family, coach Achrekar, teammates, and fans"));
+        sachin.addSpeech(new Speech("Wankhede Retirement Address & Ceremony True HD", "2013", "Np-RrpbGvGg", "Sachin Tendulkar", "Full 41-minute master HD recording of the retirement presentation and speech"));
+        sachin.addSpeech(new Speech("Complete Farewell Speech & On-Field Farewell", "2013", "xQjp8wPylFs", "Sachin Tendulkar", "Uncut 21-minute address covering his 24-year journey between 22 yards"));
+        sachin.addSpeech(new Speech("Farewell Speech & Exclusive Career Reflections", "2013", "7qHqUv_oKHc", "Sachin Tendulkar", "14-minute interview and speech reflecting on his final match and 200 Tests"));
         speakers.add(sachin);
 
         // =========================================================================
-        // 5. LAL BAHADUR SHASTRI (100% Verified Speeches)
+        // 5. LAL BAHADUR SHASTRI (Official Prasar Bharati Archival Addresses)
         // =========================================================================
         Speaker shastri = new Speaker("Lal Bahadur Shastri", "🇮🇳 India", "LS", Color.parseColor("#F57C00"));
-        shastri.addSpeech(new Speech("Iconic Speeches — Lal Bahadur Shastri (Sansad TV)", "1965", "1XvFwhkiOKc", "Lal Bahadur Shastri", "Sansad TV special covering his leadership and 'Jai Jawan, Jai Kisan' slogan"));
-        shastri.addSpeech(new Speech("Rare TV Appearance: 'I belong to common men' (BBC)", "1965", "eauajC1U0X8", "Lal Bahadur Shastri", "BBC News India rare television interview showcasing his iconic simplicity and resolve"));
-        shastri.addSpeech(new Speech("1965 Independence Day Speech (Prasar Bharati)", "1965", "R2YNbWXbe9c", "Lal Bahadur Shastri", "Official archival radio broadcast from the Red Fort during the 1965 war"));
-        shastri.addSpeech(new Speech("Iconic Speeches of Famous Politicians: Shastri", "1965", "LNh4VFeai40", "Lal Bahadur Shastri", "Selected historical speeches inspiring the armed forces and agriculture"));
-        shastri.addSpeech(new Speech("The Speech That United India", "1965", "bXV0cMaRZeM", "Lal Bahadur Shastri", "Radio broadcast mobilizing the entire country in food security and defense"));
+        shastri.addSpeech(new Speech("1965 Independence Day Speech — 'Jai Jawan Jai Kisan'", "1965", "R2YNbWXbe9c", "Lal Bahadur Shastri", "Prasar Bharati Archives 35-minute historic Red Fort address rallying the nation"));
+        shastri.addSpeech(new Speech("1965 Indo-Pak War: Address to the Nation", "1965", "oAABY_r7dCE", "Lal Bahadur Shastri", "Prasar Bharati Archives 15-minute radio broadcast mobilizing India's self-reliance"));
+        shastri.addSpeech(new Speech("Dharti Ka Lal: Archival Speeches & Life (Part 1)", "1965", "H_bX52bMyjg", "Lal Bahadur Shastri", "24-minute archival series from Prasar Bharati featuring authentic voice recordings"));
+        shastri.addSpeech(new Speech("Dharti Ka Lal: Archival Speeches & Life (Part 2)", "1965", "s3X6E6D2JHE", "Lal Bahadur Shastri", "25-minute continuation exploring his agricultural reforms and wartime leadership"));
+        shastri.addSpeech(new Speech("Life, Speeches, and Legacy of Shastri Ji", "1965", "8oWbo3CNZB4", "Lal Bahadur Shastri", "43-minute comprehensive Prasar Bharati documentary with unedited speeches"));
         speakers.add(shastri);
 
         // =========================================================================
-        // 6. DR. SARVEPALLI RADHAKRISHNAN (100% Verified Speeches)
+        // 6. DR. SARVEPALLI RADHAKRISHNAN (Official Presidential Broadcasts)
         // =========================================================================
         Speaker radhakrishnan = new Speaker("Dr. Sarvepalli Radhakrishnan", "🇮🇳 India", "SR", Color.parseColor("#6A1B9A"));
-        radhakrishnan.addSpeech(new Speech("Original Voice: Sanskrit & Philosophical Address", "Various", "HIHUBuLnsec", "Dr. Sarvepalli Radhakrishnan", "Prasar Bharati Archives original voice recording of Dr. Radhakrishnan on spiritual philosophy"));
-        radhakrishnan.addSpeech(new Speech("Famous Speech on Teachers' Day & Moral Character", "1962", "SA2snrqTQr0", "Dr. Sarvepalli Radhakrishnan", "Historic address explaining the vital responsibility of teachers in building a nation"));
-        radhakrishnan.addSpeech(new Speech("Britain Welcome President of India (1963)", "1963", "CKxKcv1urOI", "Dr. Sarvepalli Radhakrishnan", "State visit to the UK and address on international fellowship and peace"));
-        radhakrishnan.addSpeech(new Speech("Teachers' Day & Educational Philosophy", "Various", "gx3bVxJzBiY", "Dr. Sarvepalli Radhakrishnan", "Reflections on philosophical heritage and the pursuit of knowledge"));
+        radhakrishnan.addSpeech(new Speech("1964 Independence Eve Message to the Nation", "1964", "nms_kEsd9Tg", "Dr. Sarvepalli Radhakrishnan", "Prasar Bharati Archives 14-minute presidential address on education, virtue, and statehood"));
+        radhakrishnan.addSpeech(new Speech("1965 Message to the Nation during Wartime", "1965", "cDmnNPWgmSM", "Dr. Sarvepalli Radhakrishnan", "11-minute official archival message on moral courage and national solidarity"));
+        radhakrishnan.addSpeech(new Speech("1963 Independence Eve Address to the Nation", "1963", "HABwJZlhn-Q", "Dr. Sarvepalli Radhakrishnan", "Prasar Bharati Archives 8-minute address on philosophical heritage and national duty"));
+        radhakrishnan.addSpeech(new Speech("1962 Eve of Independence Day Address", "1962", "9LkqldIOxwQ", "Dr. Sarvepalli Radhakrishnan", "Historic 8-minute address marking his first Independence Eve speech as President"));
+        radhakrishnan.addSpeech(new Speech("Life & Philosophical Work Documentary", "Various", "HtmAajQgHRM", "Dr. Sarvepalli Radhakrishnan", "19-minute archival study with original voice recordings of his philosophical lectures"));
         speakers.add(radhakrishnan);
 
         // =========================================================================
-        // 7. NETAJI SUBHAS CHANDRA BOSE (100% Verified Historic Speeches)
+        // 7. NETAJI SUBHAS CHANDRA BOSE (Official Archival Addresses)
         // =========================================================================
         Speaker bose = new Speaker("Netaji Subhas Chandra Bose", "🇮🇳 India", "SB", Color.parseColor("#C2185B"));
-        bose.addSpeech(new Speech("Historic Speech of Netaji (Doordarshan National)", "1943", "Jq2om8xzY_Y", "Netaji Subhas Chandra Bose", "Doordarshan official archival broadcast of Netaji Subhas Chandra Bose"));
-        bose.addSpeech(new Speech("Calling for Total Independence (Indian Express)", "1944", "PWF3c5-HF_A", "Netaji Subhas Chandra Bose", "Historic speech inspiring the Indian National Army (INA) for total freedom"));
-        bose.addSpeech(new Speech("1943 Call for India's Freedom (Prasar Bharati Audio)", "1943", "QulGAkrakDI", "Netaji Subhas Chandra Bose", "Authentic voice recording calling upon the nation to rise in freedom"));
-        bose.addSpeech(new Speech("Original Video Discussing War Plan for Freedom", "1943", "EAeDQYl5zLQ", "Netaji Subhas Chandra Bose", "Archival footage discussing INA military campaign"));
-        bose.addSpeech(new Speech("\"India Shall Be Free\" — WWII Address", "1944", "ZtzWmR52BiY", "Netaji Subhas Chandra Bose", "Defiant wartime broadcast declaring that India's liberation is inevitable"));
+        bose.addSpeech(new Speech("Historic Speech in Tokyo (1943)", "1943", "8n9c9qdZoVI", "Netaji Subhas Chandra Bose", "Prasar Bharati Archives 19-minute authentic recording of Netaji's address in Tokyo"));
+        bose.addSpeech(new Speech("1943 Greater East Asia Conference Address", "1943", "vofeyJ_jnms", "Netaji Subhas Chandra Bose", "12-minute archival speech demanding total self-determination and liberty for India"));
+        bose.addSpeech(new Speech("Birth Centenary Archival Speeches (Part 2)", "1944", "NAbal03aYbU", "Netaji Subhas Chandra Bose", "41-minute Prasar Bharati Archives compilation of original INA radio broadcasts"));
+        bose.addSpeech(new Speech("Freedom Struggle, INA Strategy & Vision (DD News)", "1943", "8duk-OMqphA", "Netaji Subhas Chandra Bose", "33-minute DD News archival documentary featuring restored audio clips"));
         speakers.add(bose);
 
         // =========================================================================
-        // 8. SARDAR VALLABHBHAI PATEL (100% Verified Speeches)
+        // 8. SARDAR VALLABHBHAI PATEL (Official Prasar Bharati Archival Speeches)
         // =========================================================================
         Speaker patel = new Speaker("Sardar Vallabhbhai Patel", "🇮🇳 India", "VP", Color.parseColor("#BF360C"));
-        patel.addSpeech(new Speech("Historic Address on National Unity (12 Feb 1949)", "1949", "KUJFRe4LqQI", "Sardar Vallabhbhai Patel", "Archival audio excerpt on national integration, discipline, and unity"));
-        patel.addSpeech(new Speech("Calcutta Maidan Address — 3 January 1948", "1948", "_3HFNqforiM", "Sardar Vallabhbhai Patel", "Powerful public speech dealing with partition challenges and law and order"));
-        patel.addSpeech(new Speech("1950 Address to Police Personnel (Prasar Bharati)", "1950", "BoW78roEsuc", "Sardar Vallabhbhai Patel", "Official archival speech to police forces on duty, honor, and national integrity"));
-        patel.addSpeech(new Speech("1948 Address at Irwin Stadium (Prasar Bharati)", "1948", "1LExstiBjWg", "Sardar Vallabhbhai Patel", "Archival sound recording of the Iron Man addressing national security personnel"));
-        patel.addSpeech(new Speech("Iconic Speeches: Sardar Vallabhbhai Patel", "1949", "jD3K4z1Iebo", "Sardar Vallabhbhai Patel", "Historic speeches on the consolidation of 565 princely states"));
+        patel.addSpeech(new Speech("1950 Address to Police Personnel at Delhi", "1950", "BoW78roEsuc", "Sardar Vallabhbhai Patel", "Prasar Bharati Archives 10-minute speech on discipline, integrity, and patriotism"));
+        patel.addSpeech(new Speech("1948 Address at Irwin Stadium, New Delhi", "1948", "1LExstiBjWg", "Sardar Vallabhbhai Patel", "12-minute archival voice recording of the Iron Man addressing national security personnel"));
+        patel.addSpeech(new Speech("1948 Historic Public Address at Calcutta Maidan", "1948", "_3HFNqforiM", "Sardar Vallabhbhai Patel", "10-minute address resolving post-partition crisis and urging unity among citizens"));
+        patel.addSpeech(new Speech("1947 Appeal for Internal Peace & Security", "1947", "bcIpdFEHvj0", "Sardar Vallabhbhai Patel", "9-minute historic radio appeal urging communal harmony and law & order"));
+        patel.addSpeech(new Speech("Enduring Relevance of Sardar Patel Memorial", "Various", "wEC064eRcfA", "Sardar Vallabhbhai Patel", "51-minute memorial oration including archival soundbites of Patel's integration speeches"));
         speakers.add(patel);
 
         // =========================================================================
-        // 9. MARTIN LUTHER KING JR. (100% Verified Speeches)
+        // 9. MARTIN LUTHER KING JR. (Full Uncut Historic Speeches)
         // =========================================================================
         Speaker mlk = new Speaker("Martin Luther King Jr.", "🇺🇸 USA", "MK", Color.parseColor("#1976D2"));
-        mlk.addSpeech(new Speech("\"I Have a Dream\" (HD Subtitled — RARE FACTS)", "1963", "vP4iY1TtS3s", "Martin Luther King Jr.", "Historic address at the March on Washington in restored HD audio"));
-        mlk.addSpeech(new Speech("\"I Have a Dream!\" (English Speeches Channel)", "1963", "qHc3FY9il1s", "Martin Luther King Jr.", "Clean audio with English subtitles of his most iconic address"));
-        mlk.addSpeech(new Speech("Beyond Vietnam — A Time to Break Silence", "1967", "AJhgXKGldUk", "Martin Luther King Jr.", "Powerful moral stand against war delivered at Riverside Church"));
-        mlk.addSpeech(new Speech("\"I Have A Dream\" Speech (HISTORY Channel)", "1963", "_IB0i6bJIjw", "Martin Luther King Jr.", "Official History Channel archival release of the Washington Monument speech"));
-        mlk.addSpeech(new Speech("\"I Have a Dream\" Full Speech & Transcript", "1963", "6dKimoybmEo", "Martin Luther King Jr.", "Complete speech on racial equality and American civil rights"));
+        mlk.addSpeech(new Speech("\"I Have a Dream\" — Full Speech Best Restored Audio", "1963", "ARvrvJV4th4", "Martin Luther King Jr.", "Complete 33-minute March on Washington address with pristine remastered audio"));
+        mlk.addSpeech(new Speech("\"I Have A Dream\" Restored Full Address", "1963", "8LWuu2Zwsfs", "Martin Luther King Jr.", "17-minute restored master recording of the speech at Lincoln Memorial"));
+        mlk.addSpeech(new Speech("\"I've Been To The Mountaintop\" (Final Speech 1968)", "1968", "gC6qxf3b3FI", "Martin Luther King Jr.", "43-minute historic address delivered the day before his assassination (King Center)"));
+        mlk.addSpeech(new Speech("\"I Have A Dream\" (Entiversal Full Speech)", "1963", "bNBGvaSHWbY", "Martin Luther King Jr.", "17-minute full speech delivered to 250,000 civil rights marchers"));
+        mlk.addSpeech(new Speech("\"I Have a Dream!\" (English Speeches with Subtitles)", "1963", "qHc3FY9il1s", "Martin Luther King Jr.", "8-minute iconic climax with clear English subtitles"));
         speakers.add(mlk);
 
         // =========================================================================
-        // 10. WINSTON CHURCHILL (100% Verified Speeches)
+        // 10. WINSTON CHURCHILL (Full Historic Wartime Addresses)
         // =========================================================================
         Speaker churchill = new Speaker("Winston Churchill", "🇬🇧 United Kingdom", "WC", Color.parseColor("#5D4037"));
-        churchill.addSpeech(new Speech("\"We Shall Never Surrender!\" (Focus Features)", "1940", "CXIrnU7Y_RU", "Winston Churchill", "Iconic speech to Parliament after the Dunkirk evacuation: We shall fight on the beaches"));
-        churchill.addSpeech(new Speech("Defiant & Resolute: 'We Shall Never Surrender'", "1940", "9ujJaXE5arI", "Winston Churchill", "Full wartime address rallying British resolve against Axis aggression"));
-        churchill.addSpeech(new Speech("\"End of the Beginning\" Speech", "1942", "5wqLbIfPaNc", "Winston Churchill", "Famous declaration after the victory at the Second Battle of El Alamein"));
-        churchill.addSpeech(new Speech("\"We Will Never Surrender!\" Audio Archive", "1940", "N8ReNwUWmC0", "Winston Churchill", "Defiant wartime declaration to the House of Commons"));
+        churchill.addSpeech(new Speech("\"Their Finest Hour\" — Complete Address (June 1940)", "1940", "jB5wZtV1MWM", "Winston Churchill", "30-minute full wartime speech to the House of Commons during the Battle of France"));
+        churchill.addSpeech(new Speech("\"We Shall Never Surrender\" (We Shall Fight on Beaches)", "1940", "s_LncVnecLA", "Winston Churchill", "12-minute full iconic address delivered following the Dunkirk evacuation"));
+        churchill.addSpeech(new Speech("\"Blood, Toil, Tears and Sweat\" (May 13, 1940)", "1940", "80_HXIHa724", "Winston Churchill", "First speech as Prime Minister to Parliament outlining resolute war policy (6 mins)"));
+        churchill.addSpeech(new Speech("\"We Shall Never Surrender\" (Parliamentary Master)", "1940", "CXIrnU7Y_RU", "Winston Churchill", "6-minute restored audio recording from Focus Features archives"));
+        churchill.addSpeech(new Speech("\"Never Surrender\" Motivational Address", "1940", "0JQfIldcOSw", "Winston Churchill", "5-minute address rallying British spirit and civilian morale"));
         speakers.add(churchill);
 
         // =========================================================================
-        // 11. JOHN F. KENNEDY (100% Verified Speeches)
+        // 11. JOHN F. KENNEDY (Official Full Addresses & Speeches)
         // =========================================================================
         Speaker jfk = new Speaker("John F. Kennedy", "🇺🇸 USA", "JK", Color.parseColor("#0288D1"));
-        jfk.addSpeech(new Speech("\"We Choose to Go to the Moon\" (NASA Official Video)", "1962", "WZyRbnpGyzQ", "John F. Kennedy", "Official NASA recording of the landmark address at Rice University Stadium"));
-        jfk.addSpeech(new Speech("JFK's 10 Best Speeches Compilation (TDC)", "1961", "6DbhTwahqPg", "John F. Kennedy", "Curated collection including 'Ask not what your country can do for you'"));
-        jfk.addSpeech(new Speech("Powerful Inspirational Speech Collection", "1962", "EOjAyLeO5uI", "John F. Kennedy", "Inspiring addresses on civic duty, courage, and human freedom"));
-        jfk.addSpeech(new Speech("Waldorf-Astoria Speech on Freedom of the Press", "1961", "RdUsJHeVXiE", "John F. Kennedy", "Famous address on democratic transparency and open society"));
+        jfk.addSpeech(new Speech("1963 American University \"Peace Speech\" (C-SPAN)", "1963", "0fkKnfk4k40", "John F. Kennedy", "C-SPAN 27-minute complete commencement address outlining world peace & nuclear test ban"));
+        jfk.addSpeech(new Speech("Address to American Newspaper Publishers (Secret Societies)", "1961", "cgHGg8PiAqo", "John F. Kennedy", "20-minute full address at the Waldorf-Astoria on free press and open society"));
+        jfk.addSpeech(new Speech("Freedom of Information & Society (Long Version)", "1961", "pfzJaLXujTE", "John F. Kennedy", "20-minute speech emphasizing that an informed citizenry is the defense of liberty"));
+        jfk.addSpeech(new Speech("JFK's 10 Best Speeches (Including Moon Speech)", "1962", "6DbhTwahqPg", "John F. Kennedy", "7-minute highlights including 'We choose to go to the moon' and 'Ask not'"));
         speakers.add(jfk);
 
         // =========================================================================
-        // 12. NELSON MANDELA (100% Verified Speeches)
+        // 12. NELSON MANDELA (Official Full Addresses & Speeches)
         // =========================================================================
         Speaker mandela = new Speaker("Nelson Mandela", "🇿🇦 South Africa", "NM", Color.parseColor("#00796B"));
-        mandela.addSpeech(new Speech("Freedom and Justice (English Speeches)", "1994", "w42rHdvFpVM", "Nelson Mandela", "Historic speech on democracy, equality, and national reconciliation with subtitles"));
-        mandela.addSpeech(new Speech("Presidential Inauguration Address (SABC News)", "1994", "pJiXu4q__VU", "Nelson Mandela", "Official South African Broadcasting Corporation footage of his 1994 inauguration"));
-        mandela.addSpeech(new Speech("Best Speech of Nelson Mandela on Leadership", "1999", "0Rum0iHCg9w", "Nelson Mandela", "Reflections on leading people from behind and the spirit of forgiveness"));
-        mandela.addSpeech(new Speech("In His Own Words: On His Imprisonment", "1990", "XaxvHkLbRwc", "Nelson Mandela", "American Archive of Public Broadcasting interview and address after release"));
+        mandela.addSpeech(new Speech("Freedom and Justice (English Speeches)", "1994", "w42rHdvFpVM", "Nelson Mandela", "14-minute address with subtitles celebrating democratic transition in South Africa"));
+        mandela.addSpeech(new Speech("1994 Presidential Inauguration Address (SABC News)", "1994", "pJiXu4q__VU", "Nelson Mandela", "Official SABC 9-minute broadcast of Mandela taking oath as South Africa's first Black president"));
+        mandela.addSpeech(new Speech("Address at Harvard University on Reconciliation", "1998", "6D2YSOGpen0", "Nelson Mandela", "23-minute speech on forgiveness, truth and reconciliation, and constitutional democracy"));
+        mandela.addSpeech(new Speech("Address Upon Release from Prison (11 Feb 1990)", "1990", "6lQAc6Y_A48", "Nelson Mandela", "8-minute historic address to the world immediately after 27 years of imprisonment"));
+        mandela.addSpeech(new Speech("Global Town Hall on Human Dignity and Freedom", "1990", "WcQIEIRLU1Y", "Nelson Mandela", "73-minute landmark town hall interview with the international community in New York"));
         speakers.add(mandela);
 
         // =========================================================================
-        // 13. ADOLF HITLER (100% Verified Historical Educational Archive)
+        // 13. ADOLF HITLER (Historical Educational Speeches with Subtitles)
         // =========================================================================
         Speaker hitler = new Speaker("Adolf Hitler (Historical)", "🇩🇪 Germany", "AH", Color.parseColor("#455A64"));
-        hitler.addSpeech(new Speech("Election Speech in Göttingen 1932 (English Subtitles)", "1932", "wi0iKFFBKc0", "Adolf Hitler", "Historical campaign address with verified English subtitles (German Speeches)"));
-        hitler.addSpeech(new Speech("Election Speech in Eberswalde 1932 (English Subtitles)", "1932", "uq7lZJwc6_g", "Adolf Hitler", "Archival rally footage from July 1932 with English translations"));
-        hitler.addSpeech(new Speech("Speech at Tempelhof 1933 (English Subtitles)", "1933", "HDvKbu1Npws", "Adolf Hitler", "1st May 1933 address at Tempelhof Airport with historical subtitles"));
-        hitler.addSpeech(new Speech("Siemens Dynamo Factory Address 1933 (Subtitled)", "1933", "4JPGziYm6Oc", "Adolf Hitler", "Historical speech to factory workers with English annotations"));
+        hitler.addSpeech(new Speech("Election Speech in Göttingen 1932 (English Subtitles)", "1932", "wi0iKFFBKc0", "Adolf Hitler", "20-minute historical campaign address with verified English subtitles (German Speeches)"));
+        hitler.addSpeech(new Speech("Election Speech in Eberswalde 1932 (English Subtitles)", "1932", "uq7lZJwc6_g", "Adolf Hitler", "13-minute archival rally footage from July 1932 with English translations"));
+        hitler.addSpeech(new Speech("Address at Siemens Dynamo Factory 1933 (Subtitled)", "1933", "4JPGziYm6Oc", "Adolf Hitler", "14-minute historical address with English subtitles for academic study"));
         speakers.add(hitler);
 
         // =========================================================================
-        // 14. BARACK OBAMA (100% Verified Speeches)
+        // 14. BARACK OBAMA (Official Full DNC & Presidential Addresses)
         // =========================================================================
         Speaker obama = new Speaker("Barack Obama", "🇺🇸 USA", "BO", Color.parseColor("#303F9F"));
-        obama.addSpeech(new Speech("2004 DNC Keynote: 'One America' (C-SPAN)", "2004", "eWynt87PaJ0", "Barack Obama", "Breakout speech declaring 'There is not a liberal America and a conservative America, there is the United States of America'"));
-        obama.addSpeech(new Speech("2012 DNC Full Presidential Address", "2012", "2rl8Ou84s5U", "Barack Obama", "Full speech at the Democratic National Convention on economic and social progress"));
-        obama.addSpeech(new Speech("President Obama Addresses the People of India", "2015", "ZQdAmVrzgIQ", "Barack Obama", "Town hall address in New Delhi during his historic 2015 presidential visit (The Obama White House)"));
+        obama.addSpeech(new Speech("2012 DNC Presidential Address (Full Speech)", "2012", "2rl8Ou84s5U", "Barack Obama", "40-minute complete speech accepting the nomination at Democratic National Convention"));
+        obama.addSpeech(new Speech("Sen. Barack Obama's Full 2004 DNC Keynote (C-SPAN)", "2004", "ato7BtisXzE", "Barack Obama", "50-minute complete C-SPAN coverage of the breakout 'One America' keynote"));
+        obama.addSpeech(new Speech("President Obama Addresses the People of India (White House)", "2015", "ZQdAmVrzgIQ", "Barack Obama", "34-minute official White House video of town hall address at Siri Fort, New Delhi"));
+        obama.addSpeech(new Speech("2004 DNC Keynote: 'There is Not a Liberal America'", "2004", "eWynt87PaJ0", "Barack Obama", "19-minute remastered video of the speech that launched his national career"));
+        obama.addSpeech(new Speech("Commencement Address: Ignorance is NOT a Virtue", "2016", "S4lTtvlFvyk", "Barack Obama", "32-minute address with English subtitles urging intellectual honesty and civic engagement"));
         speakers.add(obama);
 
         // =========================================================================
-        // 15. SWAMI VIVEKANANDA (100% Verified Speeches & Lectures)
+        // 15. SWAMI VIVEKANANDA (Full Uncut Addresses & World Parliament)
         // =========================================================================
         Speaker vivekananda = new Speaker("Swami Vivekananda", "🇮🇳 India", "SV", Color.parseColor("#C51162"));
-        vivekananda.addSpeech(new Speech("1893 Chicago Parliament (English Subtitles)", "1893", "vPDQOB7pRRM", "Swami Vivekananda", "Authentic narration with English subtitles of his landmark Chicago Parliament of Religions address"));
-        vivekananda.addSpeech(new Speech("Chicago Speech in Hindi (Full Uncut Audio)", "1893", "cdTy8e7XMxA", "Swami Vivekananda", "Complete uncut audio recording of the Chicago World Parliament address"));
-        vivekananda.addSpeech(new Speech("World's Parliament of Religions Own Voice", "1893", "KAQMDuuN3Js", "Swami Vivekananda", "Archival tribute and historic narration of the September 1893 address"));
+        vivekananda.addSpeech(new Speech("1893 Chicago Parliament (Full Speech with Subtitles)", "1893", "vPDQOB7pRRM", "Swami Vivekananda", "29-minute complete English narration with subtitles of the landmark Chicago Parliament address"));
+        vivekananda.addSpeech(new Speech("World's Parliament of Religions Commemoration", "1893", "KAQMDuuN3Js", "Swami Vivekananda", "45-minute comprehensive audio archive of his lectures on tolerance and universal religion"));
+        vivekananda.addSpeech(new Speech("Chicago Speech in Hindi (Full Uncut Audio)", "1893", "cdTy8e7XMxA", "Swami Vivekananda", "46-minute complete uncut audio recording of the Chicago World Parliament address"));
+        vivekananda.addSpeech(new Speech("Sisters & Brothers of America (Full Narration in Hindi)", "1893", "AzLUgnXlecU", "Swami Vivekananda", "13-minute Hindi narration of the famous opening and response at Chicago"));
         speakers.add(vivekananda);
 
         return speakers;
